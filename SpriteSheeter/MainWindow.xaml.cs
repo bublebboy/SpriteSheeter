@@ -23,6 +23,7 @@ namespace SpriteSheeter
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new SheeterViewModel();
         }
     }
 }
