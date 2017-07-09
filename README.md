@@ -3,7 +3,7 @@ Creates a sprite sheet from chosen images. Sprite layout is very basic and assum
 
 Not much functionality exists in this program yet. Using it is pretty simple:
 1. Open the program.
-2. Click File > SelectImages.
+2. Click File > Select Images.
 3. Select the images you would like to be included in the sprite sheet. The program will assume all images are the same size as the first image in the selection.
 4. Click "Open".
 5. Once the sprite sheet has been created a save file dialog will appear and the sprite sheet can be saved.

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SpriteSheeter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Sprite Sheeter" Height="350" Width="525">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2px"/>
@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <Menu Grid.Column="0" Grid.ColumnSpan="3">
             <MenuItem Header="_File">
-                <MenuItem Header="_SelectImages" Command="{Binding SelectImagesCommand}"/>
+                <MenuItem Header="_Select Images" Command="{Binding SelectImagesCommand}"/>
             </MenuItem>
         </Menu>
         <ScrollViewer Grid.Column="1" Grid.Row="1">
